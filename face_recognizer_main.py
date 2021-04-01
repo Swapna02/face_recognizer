@@ -3,7 +3,7 @@ import numpy as np
 from os import listdir
 from os.path import join, isfile
 # path of dataset stored.....
-file_path = 'E:/samples_for_facerecorganiser/'
+file_path = 'E:/samples_for_face_recognizer/'
 only_file = [f for f in listdir(file_path) if isfile(join(file_path, f))]
 
 Training_data, Labels =[], []
