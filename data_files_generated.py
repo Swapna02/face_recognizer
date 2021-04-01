@@ -25,7 +25,7 @@ while True:
         face = cv2.resize(face_extractor(frame), (300, 300))
         face = cv2.cvtColor(face, cv2.COLOR_BGR2GRAY)
         # the path where your sample images will store.............
-        file_name_path = 'E:/samples_for_facerecorganiser/user'+str(count)+'.jpg'
+        file_name_path = 'E:/samples_for_face_recognizer/user'+str(count)+'.jpg'
 
         cv2.imwrite(file_name_path, face)
 
